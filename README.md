@@ -26,7 +26,6 @@ int main(void)
     bd.item3 = 10;
     bd.item4 = true;
 
-
     fp = fopen("bd.dat", "wb");
 
     fwrite(&bd, sizeof(bd), 1, fp);
